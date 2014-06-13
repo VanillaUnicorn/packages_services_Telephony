@@ -17,9 +17,9 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">메시지 대기 표시</string>
-  <string name="mwi_notification_summary">음성 메일 알림을 표시</string>
+  <string name="mwi_notification_summary">음성 메일 알림에 대한 메시지 대기 표시 보이기</string>
   <string name="preference_category_interface">인터페이스</string>
   <string name="non_intrusive_incall_title">거슬림 방지</string>
   <string name="non_intrusive_incall_summary">전화 수신 시에도 작업을 계속할 수 있도록 다이얼로그를 화면 아래쪽에 표시함</string>
@@ -31,4 +31,26 @@
   <string name="vibrate_60_summary">발신 통화 중 매 60초마다 진동</string>
   <string name="battery_mode">배터리 절약 모드</string>
   <string name="battery_mode_label">장치가 잠겨 있을 때 네트워크를 2G로 설정</string>
+  <string name="number_lookup">전화 번호 조회</string>
+  <string name="enable_forward_lookup_title">정방향 조회</string>
+  <string name="enable_forward_lookup_summary">다이얼러에서 검색할 때 인근 지역 표시</string>
+  <string name="enable_people_lookup_title">사람 조회</string>
+  <string name="enable_people_lookup_summary">다이얼러에서 검색할 때 사람들을 위한 온라인 결과 보기</string>
+  <string name="enable_reverse_lookup_title">역방향 조회</string>
+  <string name="enable_reverse_lookup_summary">알 수없는 숫사람이나 장소에 대한 정보를 조회</string>
+  <string name="choose_lookup_providers">조회 공급자 선택</string>
+  <string name="choose_forward_lookup_provider_title">정방향 조회 공급자 선택</string>
+  <string name="choose_people_lookup_provider_title">사람들이 조회 공급자 선택</string>
+  <string name="choose_reverse_lookup_provider_title">역방향 조회 제공자를 선택하세요</string>
+  <string name="flip_action_title">플립 액션</string>
+  <string name="flip_action_dialog_title">플립 장치 \u2026</string>
+  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">아무것도 안함</string>
+  <string name="entry_mute_ringer">벨소리 음소거</string>
+  <string name="entry_dismiss_call">Dismiss call</string>
+  <string name="summary_do_nothing">아무것도 하지 않기</string>
+  <string name="summary_mute_ringer">벨소리 음소거</string>
+  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="smart_phone_call_title">스마트 전화</string>
+  <string name="smart_phone_call_summary">귀에 착용,하고 자동으로 메시지 또는 전화에 현재 번호를 호출합니다</string>
 </resources>

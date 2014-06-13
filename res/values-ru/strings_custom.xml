@@ -17,18 +17,40 @@
  * limitations under the License.
  */
 -->
-<resources>
-  <string name="mwi_notification_title">Индикатор ожидания сообщения</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mwi_notification_title">Индикатор ожидания</string>
   <string name="mwi_notification_summary">Показывать индикатор ожидания сообщения уведомлений голосовой почты</string>
   <string name="preference_category_interface">Интерфейс</string>
-  <string name="non_intrusive_incall_title">Ненавязчивый</string>
-  <string name="non_intrusive_incall_summary">Использовать ненавязчивое отображение входящих вызовов</string>
-  <string name="incall_vibration">Вибросигнал во время звонка</string>
-  <string name="vibrate_outgoing">Вибросигнал при ответе</string>
-  <string name="vibrate_call_waiting">Вибросигнал при ожидании</string>
-  <string name="vibrate_hangup">Вибросигнал по окончании звонка</string>
-  <string name="vibrate_60_title">Вибросигнал каждую минуту</string>
-  <string name="vibrate_60_summary">Вибросигнал каждые 60 секунд во время исходящих звонков</string>
+  <string name="non_intrusive_incall_title">Деликатный режим</string>
+  <string name="non_intrusive_incall_summary">Использовать деликатный режим отображения входящих вызовов</string>
+  <string name="incall_vibration">Вибрация во время звонка</string>
+  <string name="vibrate_outgoing">Вибрация при ответе</string>
+  <string name="vibrate_call_waiting">Вибрация при ожидании</string>
+  <string name="vibrate_hangup">Вибрация по окончании</string>
+  <string name="vibrate_60_title">Вибрация каждую минуту</string>
+  <string name="vibrate_60_summary">Вибрация каждые 60 секунд во время исходящих звонков</string>
   <string name="battery_mode">Режим экономии батареи</string>
   <string name="battery_mode_label">Установить режим 2G, когда устройство заблокировано</string>
+  <string name="number_lookup">Поиск номеров телефона</string>
+  <string name="enable_forward_lookup_title">Прямой поиск</string>
+  <string name="enable_forward_lookup_summary">Показывать ближайшие места при поиске</string>
+  <string name="enable_people_lookup_title">Поиск контактов</string>
+  <string name="enable_people_lookup_summary">Показывать результаты из сети для контактов при поиске</string>
+  <string name="enable_reverse_lookup_title">Обратный поиск</string>
+  <string name="enable_reverse_lookup_summary">Поиск информации о человеке или месте для входящих с неизвестных номеров</string>
+  <string name="choose_lookup_providers">Выбор поставщиков поиска</string>
+  <string name="choose_forward_lookup_provider_title">Выбор поставщика прямого поиска</string>
+  <string name="choose_people_lookup_provider_title">Выбор поставщика поиска контактов</string>
+  <string name="choose_reverse_lookup_provider_title">Выбор поставщика обратного поиска</string>
+  <string name="flip_action_title">Переворот</string>
+  <string name="flip_action_dialog_title">При перевороте\u2026</string>
+  <string name="flip_action_summary">При перевороте телефона <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Ничего не делать</string>
+  <string name="entry_mute_ringer">Отключить звонок</string>
+  <string name="entry_dismiss_call">Отклонить вызов</string>
+  <string name="summary_do_nothing">ничего не делать</string>
+  <string name="summary_mute_ringer">отключить звонок</string>
+  <string name="summary_dismiss_call">отклонить вызов</string>
+  <string name="smart_phone_call_title">Умный вызов</string>
+  <string name="smart_phone_call_summary">Поднесите телефон к уху, вызов текущего номера в сообщении или наборнике будет выполнен автоматически</string>
 </resources>

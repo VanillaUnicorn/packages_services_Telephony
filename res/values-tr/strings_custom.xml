@@ -17,18 +17,40 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Mesaj bekleme göstergesi</string>
-  <string name="mwi_notification_summary">Mesaj bekleme göstergesinde sesli mesaj bildirimlerini göster</string>
+  <string name="mwi_notification_summary">Mesaj bekleme göstergesinde sesli mesaj bildirimlerini gösterir</string>
   <string name="preference_category_interface">Arayüz</string>
-  <string name="non_intrusive_incall_title">Non intrusive</string>
-  <string name="non_intrusive_incall_summary">Gelen aramalar için non-intrusive diyalog kutusunu kullan</string>
+  <string name="non_intrusive_incall_title">İzin verilen</string>
+  <string name="non_intrusive_incall_summary">Gelen aramalar için izin verilen diyalog kutusunu kullan</string>
   <string name="incall_vibration">Aramada titreşim</string>
-  <string name="vibrate_outgoing">Cevaplandığında titre</string>
-  <string name="vibrate_call_waiting">Çağrı bekletildiğinde titre</string>
-  <string name="vibrate_hangup">Kapatıldığında titre</string>
-  <string name="vibrate_60_title">Her dakikada titre</string>
-  <string name="vibrate_60_summary">Giden aramaların her dakikasını 60. saniyesinde titreştir</string>
+  <string name="vibrate_outgoing">Cevaplandığında titret</string>
+  <string name="vibrate_call_waiting">Çağrı bekletildiğinde titret</string>
+  <string name="vibrate_hangup">Kapatıldığında titret</string>
+  <string name="vibrate_60_title">Her dakikada titret</string>
+  <string name="vibrate_60_summary">Giden aramaların her dakikasının 60. saniyesinde titreştir</string>
   <string name="battery_mode">Pil tasarruf modu</string>
   <string name="battery_mode_label">Telefon kilitliyken ağı 2G moduna al</string>
+  <string name="number_lookup">Telefon numarası arama</string>
+  <string name="enable_forward_lookup_title">İleri arama</string>
+  <string name="enable_forward_lookup_summary">Çeviricide arama yaparken yakın yerleri göster</string>
+  <string name="enable_people_lookup_title">Kişi arama</string>
+  <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi sonuçları göster</string>
+  <string name="enable_reverse_lookup_title">Geri arama</string>
+  <string name="enable_reverse_lookup_summary">Bilinmeyen numaralardan gelen çağrılarda kişiler veya yerler hakkında bilgileri araştır</string>
+  <string name="choose_lookup_providers">Arama sağlayıcılarını seç</string>
+  <string name="choose_forward_lookup_provider_title">İleri arama sağlayıcısını seçin</string>
+  <string name="choose_people_lookup_provider_title">Kişi arama sağlayıcısı seç</string>
+  <string name="choose_reverse_lookup_provider_title">Geri arama sağlayıcısı seçin</string>
+  <string name="flip_action_title">Çevirme İşlevi</string>
+  <string name="flip_action_dialog_title">Cihazı to\u2026 çevir</string>
+  <string name="flip_action_summary">Telefonu ters çevirmek <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">Hiçbir şey yapma</string>
+  <string name="entry_mute_ringer">Zil sesini kapat</string>
+  <string name="entry_dismiss_call">Aramayı reddet</string>
+  <string name="summary_do_nothing">bir şey yapma</string>
+  <string name="summary_mute_ringer">zil sesini kapat</string>
+  <string name="summary_dismiss_call">aramayı reddet</string>
+  <string name="smart_phone_call_title">Akıllı telefon araması</string>
+  <string name="smart_phone_call_summary">Kulağınıza dayayın, bu şekilde mesajdaki veya çeviricideki numara kendiliğinden aranacaktır</string>
 </resources>

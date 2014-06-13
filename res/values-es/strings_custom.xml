@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mwi_notification_title">Indicador de mensaje de espera</string>
   <string name="mwi_notification_summary">Mostrar una notificación para los mensajes en espera del buzón de voz</string>
   <string name="preference_category_interface">Interfaz</string>
@@ -31,4 +31,26 @@
   <string name="vibrate_60_summary">Vibrar en el segundo 60 de cada minuto de una llamada saliente</string>
   <string name="battery_mode">Modo de ahorro de batería</string>
   <string name="battery_mode_label">Cambiar a red 2G cuando el dispositivo esté bloqueado</string>
+  <string name="number_lookup">Búsqueda de números telefónicos</string>
+  <string name="enable_forward_lookup_title">Búsqueda de lugares</string>
+  <string name="enable_forward_lookup_summary">Mostrar resultados de lugares cercanos al buscar en el marcador</string>
+  <string name="enable_people_lookup_title">Búsqueda de personas</string>
+  <string name="enable_people_lookup_summary">Mostrar resultados en línea para las personas al buscar en el dialer</string>
+  <string name="enable_reverse_lookup_title">Búsqueda inversa</string>
+  <string name="enable_reverse_lookup_summary">Buscar información sobre la persona o lugar para números desconocidos en las llamadas entrantes</string>
+  <string name="choose_lookup_providers">Elegir proveedores de búsqueda</string>
+  <string name="choose_forward_lookup_provider_title">Elegir proveedor para lugares</string>
+  <string name="choose_people_lookup_provider_title">Elegir proveedor para personas</string>
+  <string name="choose_reverse_lookup_provider_title">Elegir proveedor para búsqueda inversa</string>
+  <string name="flip_action_title">Acción al voltear</string>
+  <string name="flip_action_dialog_title">Voltear dispositivo a\u2026</string>
+  <string name="flip_action_summary">Voltear el teléfono a voluntad de <xliff:g id="action">%s</xliff:g></string>
+  <string name="entry_do_nothing">No hacer nada</string>
+  <string name="entry_mute_ringer">Timbre mudo</string>
+  <string name="entry_dismiss_call">Rechazar llamada</string>
+  <string name="summary_do_nothing">no hacer nada</string>
+  <string name="summary_mute_ringer">Silenciar sonido de llamada</string>
+  <string name="summary_dismiss_call">Rechazar la llamada</string>
+  <string name="smart_phone_call_title">Llamada teléfonica inteligente</string>
+  <string name="smart_phone_call_summary">Pongaselo en el oído, y así se llamará automáticamente al número del mensaje o del marcador</string>
 </resources>

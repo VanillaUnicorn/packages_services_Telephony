@@ -17,13 +17,40 @@
  * limitations under the License.
  */
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mwi_notification_title">メッセージ待機インジケータ</string>
+  <string name="mwi_notification_summary">ボイスメール通知のメッセージ待機インジケータを表示する</string>
   <string name="preference_category_interface">インターフェース</string>
-  <string name="vibrate_outgoing">通話応答時のバイブレーション</string>
-  <string name="vibrate_call_waiting">呼び出し中にバイブレーション</string>
-  <string name="vibrate_hangup">終話時にバイブレーション</string>
-  <string name="vibrate_60_title">毎分バイブレーション</string>
-  <string name="vibrate_60_summary">発信した通話中に毎分（60秒毎）バイブレーションさせる</string>
-  <string name="battery_mode">バッテリーセーブモード</string>
-  <string name="battery_mode_label">デバイスがロックされているときはネットワークを2Gにする</string>
+  <string name="non_intrusive_incall_title">非侵入型のダイアログ</string>
+  <string name="non_intrusive_incall_summary">着信通知に非侵入型のダイアログを使用する</string>
+  <string name="incall_vibration">着信時に振動する</string>
+  <string name="vibrate_outgoing">着信応答時に振動する</string>
+  <string name="vibrate_call_waiting">キャッチホン時に振動する</string>
+  <string name="vibrate_hangup">終話時に振動する</string>
+  <string name="vibrate_60_title">1分ごとに振動する</string>
+  <string name="vibrate_60_summary">発信通話時に1分経過するごとに振動する</string>
+  <string name="battery_mode">バッテリー節約モード</string>
+  <string name="battery_mode_label">デバイスがロックされているときには2Gネットワークを設定する</string>
+  <string name="number_lookup">電話番号検索</string>
+  <string name="enable_forward_lookup_title">正引き検索</string>
+  <string name="enable_forward_lookup_summary">ダイヤラーで検索した際に近くの場所を表示する</string>
+  <string name="enable_people_lookup_title">人物検索</string>
+  <string name="enable_people_lookup_summary">ダイヤラーで検索した際に人物についてのオンライン検索結果を表示する</string>
+  <string name="enable_reverse_lookup_title">逆引き検索</string>
+  <string name="enable_reverse_lookup_summary">着信した未登録番号から人物や場所に関する情報を検索する</string>
+  <string name="choose_lookup_providers">検索プロバイダの選択</string>
+  <string name="choose_forward_lookup_provider_title">正引き検索のプロバイダを選択</string>
+  <string name="choose_people_lookup_provider_title">人物検索のプロバイダを選択</string>
+  <string name="choose_reverse_lookup_provider_title">逆引き検索のプロバイダを選択</string>
+  <string name="flip_action_title">フリップアクション</string>
+  <string name="flip_action_dialog_title">端末をフリップして\u2026</string>
+  <string name="flip_action_summary">携帯電話を伏せると%s</string>
+  <string name="entry_do_nothing">何もしない</string>
+  <string name="entry_mute_ringer">着信音をミュート</string>
+  <string name="entry_dismiss_call">着信を却下</string>
+  <string name="summary_do_nothing">何もしない</string>
+  <string name="summary_mute_ringer">着信音をミュート</string>
+  <string name="summary_dismiss_call">着信を却下</string>
+  <string name="smart_phone_call_title">スマート発信</string>
+  <string name="smart_phone_call_summary">携帯電話を耳に当てるとメッセージまたはダイヤラーに表示されている番号に自動的に発信する</string>
 </resources>
